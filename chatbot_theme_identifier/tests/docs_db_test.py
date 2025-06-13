@@ -6,7 +6,7 @@ from langchain.vectorstores import Chroma
 
 # Initialize embedding model
 embedding_model = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
-
+##
 def process_all_pdfs_to_chroma(input_folder, persist_dir="./chroma_store"):
     all_documents = []
 
