@@ -1,7 +1,6 @@
 pymupdf
 paddleocr
 PIL
-tabulate
 langchain_groq
 langchain_community
 langchain
