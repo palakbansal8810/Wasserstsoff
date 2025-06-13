@@ -26,7 +26,7 @@ def process_all_pdfs_to_chroma(input_folder, persist_dir="./chroma_store"):
     # Use tqdm inside embed_documents to show progress manually
     texts = [doc.page_content for doc in all_documents]
     list(tqdm(texts, desc="Queuing Chunks"))  # Visual only, doesn't change logic
-
+    
     # Chroma will internally call embedding_model.embed_documents()
     vectorstore = Chroma.from_documents(
         documents=all_documents,

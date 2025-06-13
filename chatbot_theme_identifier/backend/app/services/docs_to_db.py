@@ -31,7 +31,8 @@ def process_all_pdfs_to_chroma(input_folder, persist_dir="./chroma_store"):
     vectorstore = Chroma.from_documents(
         documents=all_documents,
         embedding=embedding_model,
-        persist_directory=persist_dir
+        persist_directory=persist_dir,
+        
     )
     vectorstore.persist()
     print(f"[🎉] Stored {len(all_documents)} chunks in ChromaDB.")
