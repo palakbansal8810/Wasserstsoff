@@ -8,7 +8,6 @@ python-dotenv
 tqdm
 streamlit
 pandas
-<<<<<<< HEAD
 tabulate
 pdf2image==0.1.4
 paddlepaddle
@@ -17,6 +16,4 @@ chromadb
 protobuf==3.20.3
 torch==2.1.0
 pysqlite3-binary
-=======
-pdf2image
->>>>>>> a7240b0b694628bd0541e7ecc523d47cbc58f455
+
