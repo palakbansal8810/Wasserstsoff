@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 tabulate
 pymupdf
 paddleocr
@@ -9,3 +10,23 @@ dotenv
 tqdm
 streamlit
 pandas
+=======
+pymupdf
+paddleocr
+Pillow
+langchain_groq
+langchain_community
+langchain
+python-dotenv
+tqdm
+streamlit
+pandas
+tabulate
+pdf2image==0.1.4
+paddlepaddle
+sentence-transformers
+chromadb
+protobuf==3.20.3
+torch==2.1.0
+pysqlite3-binary
+>>>>>>> a7240b0b694628bd0541e7ecc523d47cbc58f455
