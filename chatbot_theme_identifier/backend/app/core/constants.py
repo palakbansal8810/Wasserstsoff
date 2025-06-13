@@ -1,0 +1,7 @@
+
+CHROMA_STORE_DIR = "backend/chroma_store"
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 50
+GROQ_MODEL_NAME = "llama3-8b-8192"
+OCR_LANG = 'en'
+
