@@ -1,10 +1,11 @@
 pymupdf
 paddleocr
-PIL
+Pillow
 langchain_groq
 langchain_community
 langchain
-dotenv
+python-dotenv
 tqdm
 streamlit
 pandas
+tabulate
