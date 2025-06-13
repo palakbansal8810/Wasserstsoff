@@ -9,3 +9,4 @@ dotenv
 tqdm
 streamlit
 pandas
+pdf2image
