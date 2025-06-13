@@ -1,6 +1,6 @@
 import os
 from tqdm import tqdm
-from text_extracting import process_pdf
+from services.text_extracting import process_pdf
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
 
