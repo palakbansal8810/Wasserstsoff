@@ -7,7 +7,7 @@ This project was completed as part of the Wasserstoff AI internship task. The ap
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 A comprehensive AI task solution including:
 
@@ -17,24 +17,21 @@ A comprehensive AI task solution including:
 
 ---
 
-## 🎥 Video Walkthrough
+## Video Walkthrough
 
 A detailed video explanation of the project’s design, logic, and functioning is available here:
 
 [▶️ Watch the walkthrough video](https://1drv.ms/v/c/84afa73db4734ca3/EVvzWWWkL1pFl12oFCsXArkBq6EO8Lv_XJsqH62fsdoDEw?e=13IbWn)
 
 ---
-☑ Upload and process 75+ documents (PDF/text/image with OCR)
+## Features Implemented
 
-☑ Store & manage documents for fast search
+- ✅ **Upload and process 75+ documents** (PDFs, images via OCR, and text)
+- ✅ **OCR support for scanned documents/images** using `PaddleOCR`
+- ✅ **Store & manage documents for fast search** using `ChromaDB`
+- ✅ **Ask questions in natural language** – powered by `LangChain` and `Groq`
+- ✅ **Extract and cite answers** from each relevant document
+- ✅ **Identify common themes** and generate a **synthesized, cited summary**
+- ✅ **Clean, modular, well-commented code**
+- ✅ **Demo video** available below
 
-☑ User can ask questions in natural language
-
-☑ Extract and cite answers from each document
-
-☑ Identify common themes and give synthesized, cited summary and generate a
-consolidated answer.
-
-☑ Clean, well-commented code and project README
-
-☑ Demo video or presentation
